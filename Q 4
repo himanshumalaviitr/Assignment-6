@@ -2,15 +2,16 @@
 #include<conio.h>
 int main()
 {
-    int n,f=1;
+    int n,s=0;
     printf("Enter any no. :-");
     scanf("%d",&n);
     while(n)
     {
-       f=f*n;
+        s=s+n*n;
         n--;
     }
-    printf("factorial is %d",f);
+    printf("Sum is %d",s);
     getch();
     return 0;
 }
+
